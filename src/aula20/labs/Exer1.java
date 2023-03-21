@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Exer1 {
 
   public static void main(String[] args) {
-         Scanner scan = new Scanner(System.in).useLocale(Locale.US); //não pprecisa dessa classe scan, coloquei por colocar
+         Scanner scan = new Scanner(System.in).useLocale(Locale.US); //não precisa dessa classe scan, coloquei por colocar
          
          
          int [] [] numerosAleatorios = new int [4] [4] ;
