@@ -1,6 +1,5 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+Faça um Programa que mostre a mensagem "Alo mundo" na tela.
  */
 
 package treinando13;
@@ -8,4 +7,7 @@ package treinando13;
 
 public class Ex1 {
 
+    public static void main(String[] args) {
+        System.out.println("Olá mundo!");
+    }
 }
