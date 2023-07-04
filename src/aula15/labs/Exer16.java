@@ -8,6 +8,8 @@ package aula15.labs;
 import java.util.Locale;
 import java.util.Scanner;
 
+//Loiane fez a questão"incompleta", mas no caso dela se delta for 0 x1 e x2 ficam iguais, seria na minha o x.
+
 
 public class Exer16 {
  public static void main(String[] args) {
@@ -15,6 +17,14 @@ public class Exer16 {
         
         System.out.println("Digite o valor a:");
         int a = scan.nextInt();
+
+         if(a == 0){
+             
+             System.out.println("A equação não é de segunda grau, o programa será encerrado");
+             
+             return;
+         }
+         
         System.out.println("Digite o valor b:");
         int b = scan.nextInt();
         System.out.println("Digite o valor c:");

@@ -1,6 +1,6 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+Faça um Programa que peça um número e informe se o número é
+inteiro ou decimal. Dica: utilize uma função de arredondamento.
  */
 
 package treinando15;

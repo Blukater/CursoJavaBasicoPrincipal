@@ -1,6 +1,6 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+Faça um Programa que peça um número inteiro e determine se ele é
+par ou impar. Dica: utilize o operador módulo (resto da divisão).
  */
 
 package treinando15;

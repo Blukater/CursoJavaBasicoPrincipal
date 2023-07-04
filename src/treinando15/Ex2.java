@@ -1,6 +1,6 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+Faça um Programa que peça um valor e mostre na tela se o valor é
+positivo ou negativo.
  */
 
 package treinando15;
@@ -13,5 +13,18 @@ public class Ex2 {
 
 public static void main(String[] args) {
          Scanner scan = new Scanner(System.in).useLocale(Locale.US);
+         
+         
+         
+         int num = 0;
+         
+         System.out.println("Entre com um número");
+         num = scan.nextInt();
+         
+         if (num > 0){
+             System.out.println( num + " é um número positivo!" );
+         }else{
+             System.out.println(num + " é um número negativo!");
+         }
 }
 }
