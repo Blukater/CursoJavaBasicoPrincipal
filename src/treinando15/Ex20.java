@@ -8,47 +8,41 @@ a respectiva média alcançada;
 b. A mensagem "Aprovado com Distinção", se a média for igual a
 10.
  */
-
 package treinando15;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-
 public class Ex20 {
 
-public static void main(String[] args) {
-         Scanner scan = new Scanner(System.in).useLocale(Locale.US);
-         
-         double n1 = 0;
-         double n2 = 0;
-         double n3 = 0;
-         
-         System.out.println("Entre com a nota1");
-         n1 = scan.nextDouble();
-         
-          System.out.println("Entre com a nota2");
-         n2 = scan.nextDouble();
-         
-          System.out.println("Entre com a nota3");
-         n3 = scan.nextDouble();
-         
-         
-         double media = (n1 + n2 + n3) / 3;
-         
-         
-         if(media >= 7 && media < 10){
-             
-             System.out.println("Você foi aprovado");
-         } else if(media < 7){
-             
-             System.out.println("Você foi reprovado!");
-         }else if(media == 10){
-             
-             System.out.println("Você foi aprovado com destinção!");
-         }
-         
-         
-         
-}
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in).useLocale(Locale.US);
+
+        double n1 = 0;
+        double n2 = 0;
+        double n3 = 0;
+
+        System.out.println("Entre com a nota1");
+        n1 = scan.nextDouble();
+
+        System.out.println("Entre com a nota2");
+        n2 = scan.nextDouble();
+
+        System.out.println("Entre com a nota3");
+        n3 = scan.nextDouble();
+
+        double media = (n1 + n2 + n3) / 3;
+
+        if (media >= 7 && media < 10) {
+
+            System.out.println("Você foi aprovado");
+        } else if (media < 7) {
+
+            System.out.println("Você foi reprovado!");
+        } else if (media == 10) {
+
+            System.out.println("Você foi aprovado com destinção!");
+        }
+
+    }
 }
