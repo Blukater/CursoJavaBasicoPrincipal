@@ -1,6 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ A série de Fibonacci é formada pela seqüência
+1,1,2,3,5,8,13,21,34,55,... Faça um programa capaz de gerar a série
+até o n−ésimo termo.
  */
 
 package treinando17;

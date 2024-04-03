@@ -12,10 +12,7 @@ import java.util.Scanner;
 public class Exer13 {
 public static void main(String[] args) {
          Scanner scan = new Scanner(System.in).useLocale(Locale.US);
-         
-         
-       
-          
+     
          System.out.println("Digite o número base:");
          int base = scan.nextInt();
          

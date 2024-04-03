@@ -1,6 +1,6 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ Altere o programa de cálculo dos números primos, informando, caso o
+número não seja primo, por quais número ele é divisível.
  */
 
 package treinando17;

@@ -1,6 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ Faça um programa que calcule o número médio de alunos por turma.
+Para isto, peça a quantidade de turmas e a quantidade de alunos para
+cada turma. As turmas não podem ter mais de 40 alunos.
  */
 
 package treinando17;

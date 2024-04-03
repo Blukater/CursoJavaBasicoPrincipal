@@ -14,9 +14,9 @@ public class Exer3 {
          Scanner scan = new Scanner(System.in).useLocale(Locale.US);
          
          boolean infoValidas = false;
-         String nome, sexo, estadoCivil;
-         int idade;
-         double salario;
+         String nome, sexo, estadoCivil = "";
+         int idade = 0;
+         double salario = 0;
          
        do{  
          System.out.println("Digite seu nome:");

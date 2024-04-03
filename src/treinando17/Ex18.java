@@ -1,6 +1,6 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ Faça um programa que, dado um conjunto de N números, determine o
+menor valor, o maior valor e a soma dos valores.
  */
 
 package treinando17;

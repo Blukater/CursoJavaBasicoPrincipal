@@ -1,6 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ Faça um programa que peça um número inteiro e determine se ele é
+ou não um número primo. Um número primo é aquele que é divisível
+somente por ele mesmo e por 1.
  */
 
 package treinando17;

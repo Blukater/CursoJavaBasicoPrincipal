@@ -1,6 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ Altere o programa de cálculo do fatorial, permitindo ao usuário calcular
+o fatorial várias vezes e limitando o fatorial a números inteiros positivos
+e menores que 16.
  */
 
 package treinando17;

@@ -1,6 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+Numa eleição existem três candidatos. Faça um programa que peça o
+número total de eleitores. Peça para cada eleitor votar e ao final
+mostrar o número de votos de cada candidato.
  */
 
 package treinando17;

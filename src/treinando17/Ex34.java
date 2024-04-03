@@ -1,6 +1,9 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+Os números primos possuem várias aplicações dentro da
+Computação, por exemplo na Criptografia. Um número primo é aquele
+que é divisível apenas por um e por ele mesmo. Faça um programa
+que peça um número inteiro e determine se ele é ou não um número
+primo.
  */
 
 package treinando17;
