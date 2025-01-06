@@ -25,7 +25,12 @@ Rodrigo Curvêllo: 5.9 m
 
 package treinando17;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 
 public class Ex46 {
-
+  public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in).useLocale(Locale.US);
+    }
 }

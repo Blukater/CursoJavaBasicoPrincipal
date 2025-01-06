@@ -2,19 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package aula24;
 
-public class Carro {
+package aula24.labs;
 
-   
-
-        String marca;
-        String modelo;
-        int numPassageiros;
-        double capCombustivel;
-        double consumoCombustivel;
+import java.time.LocalDate;
         
-        
-      
-    }
-
+public class Livro {
+    
+    String nome;
+    String autor;
+    String editora;
+    int isbn;
+    LocalDate dataLancamento;
+  double preco;
+}

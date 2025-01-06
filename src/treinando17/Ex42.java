@@ -7,7 +7,13 @@ deverá terminar quando for lido um número negativo.
 
 package treinando17;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 
 public class Ex42 {
 
+  public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in).useLocale(Locale.US);
+    }
 }

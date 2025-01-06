@@ -13,16 +13,26 @@ o 2 - R$ 3.98
 o ...
 o 50 - R$ 99.50
  */
-
 package treinando17;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-
 public class Ex29 {
 
-public static void main(String[] args) {
-         Scanner scan = new Scanner(System.in).useLocale(Locale.US);
-}
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in).useLocale(Locale.US);
+
+        double valorUnidade = 1.99;
+
+        System.out.println("Loja Quase Dois -Tabela de Preços ");
+        System.out.println();
+
+        for (int i = 1; i <= 50; i++) {
+
+            System.out.println(i + " - R$ " + i * valorUnidade);
+
+        }
+
+    }
 }

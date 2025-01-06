@@ -25,7 +25,7 @@ public class Ex23 {
             boolean primo = true;
             int raiz = (int) Math.sqrt(num);
 
-            for (int i = 2; i <= raiz; i++) {
+           for (int i = 2; i <= raiz; i++) {
                 divisoes++;
                 if (num % i == 0) {
                     primo = false;

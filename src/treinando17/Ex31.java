@@ -19,16 +19,56 @@ o Dinheiro: R$ 20.00
 o Troco: R$ 11.00
 o ...
  */
-
 package treinando17;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-
 public class Ex31 {
 
-public static void main(String[] args) {
-         Scanner scan = new Scanner(System.in).useLocale(Locale.US);
-}
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in).useLocale(Locale.US);
+
+        while (true) {
+            int quantProd = 0;
+            double precoProd = 0;
+            double somaValores = 0;
+
+            System.out.println("LOJA TABAJARA");
+
+            System.out.println("Quantos produtos você vai registrar?");
+            quantProd = scan.nextInt();
+
+            for (int i = 1; i <= quantProd; i++) {
+                System.out.println("Preço do produto " + (i < 10 ? "0" + i : i) + ": ");
+                precoProd = scan.nextDouble();
+                System.out.println();
+                somaValores += precoProd;
+
+            }
+
+            System.out.println("Valor total da compra: " + somaValores);
+            System.out.println();
+
+            double dinheiro = 0;
+
+            System.out.println("Qual valor forcecido pelo cliente: ");
+            dinheiro = scan.nextDouble();
+            System.out.println();
+            System.out.println("O troco do cliente é: R$ " + (dinheiro - somaValores));
+            System.out.println();
+
+            int sairRegistradora = 0;
+            System.out.println("Deseja sair da registadora? Se sim digite 0, se quizer continuar registrando tecle qualquer outro número");
+            sairRegistradora = scan.nextInt();
+// Verificar se o usuário deseja sair
+            if (sairRegistradora == 0) {
+                System.out.println("Saindo...");
+                break;
+            } else {
+                continue;
+            }
+
+        }
+    }
 }

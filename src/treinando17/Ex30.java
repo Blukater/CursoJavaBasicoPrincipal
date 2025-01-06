@@ -21,6 +21,28 @@ import java.util.Scanner;
 public class Ex30 {
 
 public static void main(String[] args) {
-         Scanner scan = new Scanner(System.in).useLocale(Locale.US);
-}
+        Scanner scan = new Scanner(System.in).useLocale(Locale.US);
+
+        double precoPao = 0.18;
+
+        System.out.println("Panificadora Pão de Ontem - Tabela de preços ");
+        System.out.println();
+
+        for (int i = 1; i <= 50; i++) {
+
+            System.out.println(i + " - R$ " + i * precoPao);
+
+        }
+        System.out.println();
+        int quantPaes = 0;
+        double valorTotal = 0;
+        
+        System.out.println("Você quer quantos pães?");
+        quantPaes = scan.nextInt();
+        
+        valorTotal = precoPao * quantPaes;
+       System.out.println("Valor da compra: R$ " + valorTotal); 
+    }
+
+ 
 }
