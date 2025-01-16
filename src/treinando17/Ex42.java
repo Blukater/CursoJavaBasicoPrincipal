@@ -15,5 +15,7 @@ public class Ex42 {
 
   public static void main(String[] args) {
         Scanner scan = new Scanner(System.in).useLocale(Locale.US);
+        
+        System.out.println("heeoloololo");
     }
 }
